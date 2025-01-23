@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans";
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+ 
+}
+
+.bg-color{
+    background-color: #FFF4E7;
+   
+    margin: 0 auto;
+   
+}
+.grey1,.lore{
+    color: #424242;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.display-flex{
+    display: flex;
+}
+.brand{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.navbar{
+    justify-content: space-between;
+   
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+    
+}
+.nav-links{
+    justify-content: space-between ;
+    gap: 60px;
+}
+.brand-new {
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+   
+.btn-prm {
+    color: white;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 6px;
+    font-size: 1.25em;
+    font-weight: 600;
+   border: none;
+  
+  
+}
+.banner-content{
+    max-width: 882px;
+}
+.ban-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+
+    max-width: 1440px;
+}
+.title {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:576px) {
+    .navbar,.nav-links{
+       
+        flex-direction: column;
+    }
+    .team{
+        flex-direction: column;
+        
+    }
+    .team .team-img{
+     grid-template-columns: repeat(1,1fr);
+
+    }
+    .align .our-features{
+        margin-left: 20px;
+}
+}
+
+.align {
+    max-width: 1440px;
+    align-items: center;
+   
+    margin: 0 auto;
+}
+.team{
+    align-items: center;
+}
+.team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.our-features{
+    margin-left: 73px;
+}
+.lore1{
+    margin: 32px 0;
+}
+.steaker{
+    margin-bottom: 180px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ftr-title{
+    font-weight: bold;
+    font-size: 45px;
+    color:#727272
+}
+.all-stkr{
+ 
+   margin: 0 auto;
+   justify-content: center;
+   gap: 124px;
+   
+   
+}
+.single-stkr {
+   width: 240px;
+   height: 240px;
+    border: 1px solid;
+  /* margin-top: 20px; */
+  /* padding-top: 40px; */
+  text-align: center;
+  align-items: center;
+   justify-content: center;
+   
+}
